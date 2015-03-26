@@ -22,10 +22,10 @@ public class main extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        setUpMapIfNeeded();
+        setUpMapIfNeeded();
 
-
-        if (googleMap == null) {
+        /// TODO: Teste com outra abordagem
+       /* if (googleMap == null) {
             googleMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map))
                     .getMap();
             googleMap.setMyLocationEnabled(true);
@@ -59,7 +59,7 @@ public class main extends FragmentActivity {
                     googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ll, 20));
                 }
 
-            }
+            }*/
     }
 
     @Override

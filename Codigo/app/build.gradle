@@ -14,7 +14,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('C:/Android_Studio/Workspace/Den/keystore.jks')
+            storeFile file('C:/Users/iuri/Documents/Projetos/Android/workspace_studio/Den/Codigo/keystore.jks')
             storePassword "keystore"
             keyAlias "keystore"
             keyPassword "keystore"
